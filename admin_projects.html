@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin All Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/admin-styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="assets/admin.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <img src="assets/images/UM_simbols.png" alt="uznemejiMieram" id="logo_t">
+            <div class="log-out-btn">
+                <img src="assets/images/power-off.svg" alt="powerOff">
+                <p>Log out</p>
+            </div>
+        </header>
+
+        <div class="panel-admin-wrapper">
+
+            <section class="panel-admin-nav">
+                <div class="left_navigation">
+                    <div>
+                        <p class="account-name">Uzņēmēji <br>Mieram</p>
+                    </div>
+                    <nav class="navigation-buttons">
+                        <a href="admin_projects.html"><button class="navigation-btn-main">Home</button></a>
+                        <a href="admin_projects_createNew.html"><button class="navigation-btn-main">Create new
+                                project</button></a>
+                        <div class="accordion-landing_page-wrapper">
+
+                            <div class="accordion-landing_page-header">
+                                <a href="admin_landing_hero.html"><button class="navigation-btn-main">
+                                        <p>Landing Page</p><span><svg xmlns="http://www.w3.org/2000/svg" width="17"
+                                                height="14" viewBox="0 0 26 15" fill="none">
+                                                <path
+                                                    d="M2 2.25L12.8085 12.3619C13.0394 12.5779 13.4003 12.5707 13.6223 12.3457L23.5833 2.25"
+                                                    stroke="#1E1F24" stroke-width="3" stroke-linecap="round" />
+                                            </svg></span>
+                                    </button></a>
+                            </div>
+                            <div class="accordion-landing_page-sections">
+                                <div class="accordion-landing_page-sections-content">
+                                    <a href="admin_landing_hero.html"><button>Hero</button></a>
+                                    <a href="admin_landing_whyDonate.html"><button>Why Donate</button></a>
+                                    <button>Total amount</button>
+                                    <button>Donation utilised</button>
+                                    <button>Donors & Partners</button>
+                                    <button>FAQ</button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href=""><button class="navigation-btn-main">Partners</button></a>
+                        <a href=""><button class="navigation-btn-main">Reports</button></a>
+                        <a href=""><button class="navigation-btn-main">About us</button></a>
+                        <a href=""><button class="navigation-btn-main">Thank you/Error</button></a>
+                    </nav>
+                    <div class="navigation-buttons drafts">
+                        <a href=""><button class="navigation-btn-drafts">Drafts</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="right_wrapper">
+                <div class="work-frame">
+                    <div class="frame-name">
+                        <h4>All projects</h4>
+                        <a href="admin_projects_createNew.html"><button class="create-new-project">
+                                <h5>+ Create new project </h5>
+                            </button></a>
+                    </div>
+                    <div class="wrapper_table">
+                        <div class="table_projects">
+                            <div class="all_projects-titles_fields">
+                                <div class="all_projects-titles">
+                                    <h4>Project name</h4>
+                                    <h4>Published</h4>
+                                    <h4>Active/Deactive</h4>
+                                    <h4>Goal achieved</h4>
+                                    <h4>Edit</h4>
+                                </div>
+                                <hr>
+                                <div>
+                                    <div class="all_projects-fields">
+                                        <p class="all_projects-name">Help people in Ukraine</p>
+                                        <p class="all_projects-date">14/08/2023</p>
+                                        <span class="all_projects-active-deactive">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="39"
+                                                viewBox="0 0 54 39" fill="none">
+                                                <g filter="url(#filter0_i_3769_2401)">
+                                                    <rect x="0.5" y="5.5" width="46" height="24" rx="12"
+                                                        fill="#E17C41" />
+                                                </g>
+                                                <g filter="url(#filter1_d_3769_2401)">
+                                                    <path
+                                                        d="M34.5 28.5C40.5751 28.5 45.5 23.5751 45.5 17.5C45.5 11.4249 40.5751 6.5 34.5 6.5C28.4249 6.5 23.5 11.4249 23.5 17.5C23.5 23.5751 28.4249 28.5 34.5 28.5Z"
+                                                        fill="#FBFCFC" />
+                                                </g>
+                                                <defs>
+                                                    <filter id="filter0_i_3769_2401" x="0.5" y="5.5" width="46"
+                                                        height="25" filterUnits="userSpaceOnUse"
+                                                        color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                            in2="BackgroundImageFix" result="shape" />
+                                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                            result="hardAlpha" />
+                                                        <feOffset dy="1" />
+                                                        <feGaussianBlur stdDeviation="1.5" />
+                                                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1"
+                                                            k3="1" />
+                                                        <feColorMatrix type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                                        <feBlend mode="normal" in2="shape"
+                                                            result="effect1_innerShadow_3769_2401" />
+                                                    </filter>
+                                                    <filter id="filter1_d_3769_2401" x="15.5" y="0.5" width="38"
+                                                        height="38" filterUnits="userSpaceOnUse"
+                                                        color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                            result="hardAlpha" />
+                                                        <feOffset dy="2" />
+                                                        <feGaussianBlur stdDeviation="4" />
+                                                        <feColorMatrix type="matrix"
+                                                            values="0 0 0 0 0.144649 0 0 0 0 0.374632 0 0 0 0 0.248395 0 0 0 0.299798 0" />
+                                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                                            result="effect1_dropShadow_3769_2401" />
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                            in2="effect1_dropShadow_3769_2401" result="shape" />
+                                                    </filter>
+                                                </defs>
+                                            </svg></span>
+                                        <span><img src="assets/images/chart_container72.svg" alt="chart"
+                                                class="all_projects-goal_achiev"></span>
+                                        <a href="admin_projects_edit.html"><img src="assets/images/edit.svg" alt="edit"
+                                                class="all_projects-edit_project"></a>
+                                    </div>
+                                    <hr>
+                                    <div class="all_projects-fields">
+                                        <p class="all_projects-name">Drones</p>
+                                        <p class="all_projects-date">10/08/2023</p>
+                                        <span class="all_projects-active-deactive">
+                                             <svg xmlns="http://www.w3.org/2000/svg" width="54" height="39"
+                                                viewBox="0 0 54 39" fill="none">
+                                                <g filter="url(#filter0_i_3769_2401)">
+                                                    <rect x="0.5" y="5.5" width="46" height="24" rx="12"
+                                                        fill="#E17C41" />
+                                                </g>
+                                                <g filter="url(#filter1_d_3769_2401)">
+                                                    <path
+                                                        d="M34.5 28.5C40.5751 28.5 45.5 23.5751 45.5 17.5C45.5 11.4249 40.5751 6.5 34.5 6.5C28.4249 6.5 23.5 11.4249 23.5 17.5C23.5 23.5751 28.4249 28.5 34.5 28.5Z"
+                                                        fill="#FBFCFC" />
+                                                </g>
+                                                <defs>
+                                                    <filter id="filter0_i_3769_2401" x="0.5" y="5.5" width="46"
+                                                        height="25" filterUnits="userSpaceOnUse"
+                                                        color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                            in2="BackgroundImageFix" result="shape" />
+                                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                            result="hardAlpha" />
+                                                        <feOffset dy="1" />
+                                                        <feGaussianBlur stdDeviation="1.5" />
+                                                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1"
+                                                            k3="1" />
+                                                        <feColorMatrix type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                                        <feBlend mode="normal" in2="shape"
+                                                            result="effect1_innerShadow_3769_2401" />
+                                                    </filter>
+                                                    <filter id="filter1_d_3769_2401" x="15.5" y="0.5" width="38"
+                                                        height="38" filterUnits="userSpaceOnUse"
+                                                        color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                            result="hardAlpha" />
+                                                        <feOffset dy="2" />
+                                                        <feGaussianBlur stdDeviation="4" />
+                                                        <feColorMatrix type="matrix"
+                                                            values="0 0 0 0 0.144649 0 0 0 0 0.374632 0 0 0 0 0.248395 0 0 0 0.299798 0" />
+                                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                                            result="effect1_dropShadow_3769_2401" />
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                            in2="effect1_dropShadow_3769_2401" result="shape" />
+                                                    </filter>
+                                                </defs>
+                                            </svg></span>
+                                        <span><img src="assets/images/chart_container50.svg" alt="chart"
+                                                class="all_projects-goal_achiev"></span>
+                                        <a href="admin_projects_edit.html"><img src="assets/images/edit.svg" alt="edit"
+                                                class="all_projects-edit_project"></a>
+                                    </div>
+                                    <hr>
+                                    <div class="all_projects-fields">
+                                        <p class="all_projects-name">Medicine cars</p>
+                                        <p class="all_projects-date">14/08/2023</p>
+                                        <span class="all_projects-active-deactive">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="39"
+                                                viewBox="0 0 54 39" fill="none">
+                                                <g filter="url(#filter0_i_3769_2401)">
+                                                    <rect x="0.5" y="5.5" width="46" height="24" rx="12"
+                                                        fill="#E17C41" />
+                                                </g>
+                                                <g filter="url(#filter1_d_3769_2401)">
+                                                    <path
+                                                        d="M34.5 28.5C40.5751 28.5 45.5 23.5751 45.5 17.5C45.5 11.4249 40.5751 6.5 34.5 6.5C28.4249 6.5 23.5 11.4249 23.5 17.5C23.5 23.5751 28.4249 28.5 34.5 28.5Z"
+                                                        fill="#FBFCFC" />
+                                                </g>
+                                                <defs>
+                                                    <filter id="filter0_i_3769_2401" x="0.5" y="5.5" width="46"
+                                                        height="25" filterUnits="userSpaceOnUse"
+                                                        color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                            in2="BackgroundImageFix" result="shape" />
+                                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                            result="hardAlpha" />
+                                                        <feOffset dy="1" />
+                                                        <feGaussianBlur stdDeviation="1.5" />
+                                                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1"
+                                                            k3="1" />
+                                                        <feColorMatrix type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                                        <feBlend mode="normal" in2="shape"
+                                                            result="effect1_innerShadow_3769_2401" />
+                                                    </filter>
+                                                    <filter id="filter1_d_3769_2401" x="15.5" y="0.5" width="38"
+                                                        height="38" filterUnits="userSpaceOnUse"
+                                                        color-interpolation-filters="sRGB">
+                                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                            result="hardAlpha" />
+                                                        <feOffset dy="2" />
+                                                        <feGaussianBlur stdDeviation="4" />
+                                                        <feColorMatrix type="matrix"
+                                                            values="0 0 0 0 0.144649 0 0 0 0 0.374632 0 0 0 0 0.248395 0 0 0 0.299798 0" />
+                                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                                            result="effect1_dropShadow_3769_2401" />
+                                                        <feBlend mode="normal" in="SourceGraphic"
+                                                            in2="effect1_dropShadow_3769_2401" result="shape" />
+                                                    </filter>
+                                                </defs>
+                                            </svg></span>
+                                        <span><img src="assets/images/chart_container72.svg" alt="chart"
+                                                class="all_projects-goal_achiev"></span>
+                                        <a href="admin_projects_edit.html"><img src="assets/images/edit.svg" alt="edit"
+                                                class="all_projects-edit_project"></a>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
